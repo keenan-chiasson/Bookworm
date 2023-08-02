@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D2507722A77F21200E0C028 /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2507712A77F21200E0C028 /* AddBookView.swift */; };
+		0D2507742A77F52800E0C028 /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2507732A77F52800E0C028 /* RatingView.swift */; };
+		0D2507762A77F6A300E0C028 /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2507752A77F6A300E0C028 /* EmojiRatingView.swift */; };
+		0D3874162A74A52200E3F363 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3874152A74A52200E3F363 /* DataController.swift */; };
+		0D3874192A74A59700E3F363 /* DocuSignPoC.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0D3874172A74A59700E3F363 /* DocuSignPoC.xcdatamodeld */; };
+		0D4CFEA32A77FACB001F0DFE /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4CFEA22A77FACB001F0DFE /* DetailView.swift */; };
 		0D6503732A7444E20086EDB1 /* DocuSignPoCApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6503722A7444E20086EDB1 /* DocuSignPoCApp.swift */; };
 		0D6503752A7444E20086EDB1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D6503742A7444E20086EDB1 /* ContentView.swift */; };
 		0D6503772A7444E30086EDB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D6503762A7444E30086EDB1 /* Assets.xcassets */; };
@@ -14,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0D2507712A77F21200E0C028 /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
+		0D2507732A77F52800E0C028 /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
+		0D2507752A77F6A300E0C028 /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
+		0D3874152A74A52200E3F363 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		0D3874182A74A59700E3F363 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		0D4CFEA22A77FACB001F0DFE /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		0D65036F2A7444E20086EDB1 /* DocuSignPoC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DocuSignPoC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D6503722A7444E20086EDB1 /* DocuSignPoCApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocuSignPoCApp.swift; sourceTree = "<group>"; };
 		0D6503742A7444E20086EDB1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +65,12 @@
 			children = (
 				0D6503722A7444E20086EDB1 /* DocuSignPoCApp.swift */,
 				0D6503742A7444E20086EDB1 /* ContentView.swift */,
+				0D4CFEA22A77FACB001F0DFE /* DetailView.swift */,
+				0D2507752A77F6A300E0C028 /* EmojiRatingView.swift */,
+				0D2507732A77F52800E0C028 /* RatingView.swift */,
+				0D2507712A77F21200E0C028 /* AddBookView.swift */,
+				0D3874152A74A52200E3F363 /* DataController.swift */,
+				0D3874172A74A59700E3F363 /* DocuSignPoC.xcdatamodeld */,
 				0D6503762A7444E30086EDB1 /* Assets.xcassets */,
 				0D6503782A7444E30086EDB1 /* Preview Content */,
 			);
@@ -138,7 +156,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D6503752A7444E20086EDB1 /* ContentView.swift in Sources */,
+				0D4CFEA32A77FACB001F0DFE /* DetailView.swift in Sources */,
+				0D3874162A74A52200E3F363 /* DataController.swift in Sources */,
+				0D2507762A77F6A300E0C028 /* EmojiRatingView.swift in Sources */,
 				0D6503732A7444E20086EDB1 /* DocuSignPoCApp.swift in Sources */,
+				0D2507742A77F52800E0C028 /* RatingView.swift in Sources */,
+				0D3874192A74A59700E3F363 /* DocuSignPoC.xcdatamodeld in Sources */,
+				0D2507722A77F21200E0C028 /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +363,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0D3874172A74A59700E3F363 /* DocuSignPoC.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0D3874182A74A59700E3F363 /* Model.xcdatamodel */,
+			);
+			currentVersion = 0D3874182A74A59700E3F363 /* Model.xcdatamodel */;
+			path = DocuSignPoC.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 0D6503672A7444E20086EDB1 /* Project object */;
 }
